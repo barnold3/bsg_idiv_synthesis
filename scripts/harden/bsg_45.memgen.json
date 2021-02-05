@@ -1,0 +1,6 @@
+{ "memories": [
+    { "name": "free45_1rw_d32_w64",   "width":  64, "depth":   32, "banks": 1, "type": "ram" }
+  ],
+  "dont_compile": [
+  ]
+}
