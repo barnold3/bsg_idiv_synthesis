@@ -1,11 +1,11 @@
-  ########################################
+ ########################################
   ##
   ## Clock Setup
   ##
   
   set clk_name            "clk"         ;# main clock
   
-  set clk_period_ns       2
+  set clk_period_ns       1.1
   set clk_uncertainty_per 0.0030
   set clk_uncertainty_ns  [expr min([expr ${clk_period_ns}*(${clk_uncertainty_per}/100.0)], 0.02)]
   #set clk_uncertainty_ns 0.0200

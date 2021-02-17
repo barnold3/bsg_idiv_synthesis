@@ -14,7 +14,7 @@ else ifeq ($(GIT_CLONE_STYLE),https)
 endif
 
 basejump_stl_dir     :=$(THIS_DIR)/basejump_stl
-basejump_stl_url     :=$(GITHUB)bespoke-silicon-group/basejump_stl
+basejump_stl_url     :=$(GITHUB)barnold3/basejump_stl
 basejump_stl_commit  :=master
 
 bsg_45_dir           :=$(THIS_DIR)/bsg_45
@@ -26,7 +26,7 @@ bsg_fakeram_url      :=$(GITHUB)bespoke-silicon-group/bsg_fakeram
 bsg_fakeram_commit   :=master
 
 bsg_cadenv_dir       :=$(THIS_DIR)/bsg_cadenv
-bsg_cadenv_url       :=$(BITBUCKET)taylor-bsg/bsg_cadenv
+bsg_cadenv_url       :=$(GITHUB)taylor-bsg/bsg_cadenv
 bsg_cadenv_commit    :=master
 
 board_dir            :=$(THIS_DIR)/board

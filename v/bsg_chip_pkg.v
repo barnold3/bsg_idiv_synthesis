@@ -1,17 +1,17 @@
 `ifndef BSG_CHIP_PKG_V
-`define BSG_CHIP_PKG_V
+ `define BSG_CHIP_PKG_V
 
 package bsg_chip_pkg;
 
-  `include "bsg_defines.v"
 
-  //////////////////////////////////////////////////
-  //
-  // BSG PARAMETERS
-  //
-  
+ `include "bsg_defines.v"
 
-endpackage // bsg_chip_pkg
+     //////////////////////////////////////////////////
+     //
+     // BSG PARAMETERS
+     //
 
-`endif // BSG_CHIP_PKG_V
 
+   endpackage // bsg_chip_pkg
+
+   `endif // BSG_CHIP_PKG_V
