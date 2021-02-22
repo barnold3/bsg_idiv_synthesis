@@ -5,7 +5,7 @@ module bsg_chip
      ,input                  reset_i
 
      ,input                  v_i      //there is a request
-     ,output                 ready_o  //idiv is idle
+     ,output                 ready_and_o  //idiv is idle
 
      ,input [63:0]           dividend_i
      ,input [63:0]           divisor_i
@@ -25,7 +25,7 @@ module bsg_chip
 	   .signed_div_i,
 	   .quotient_o,
 	   .remainder_o,
-           .ready_o,
+           .ready_and_o,
 	   .v_o,
            .yumi_i,
 	   .reset_i,

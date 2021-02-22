@@ -26,7 +26,7 @@ bsg_fakeram_url      :=$(GITHUB)bespoke-silicon-group/bsg_fakeram
 bsg_fakeram_commit   :=master
 
 bsg_cadenv_dir       :=$(THIS_DIR)/bsg_cadenv
-bsg_cadenv_url       :=$(GITHUB)taylor-bsg/bsg_cadenv
+bsg_cadenv_url       :=$(GITHUB)bespoke-silicon-group/bsg_cadenv
 bsg_cadenv_commit    :=master
 
 board_dir            :=$(THIS_DIR)/board
